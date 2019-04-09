@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Water
+  - Pill1
+  - Pill2
+  - pickupEnabled
+  - wall
+  - Monster
+  - Door
+  - RightHand
+  - Handle
+  - HoldButton
+  - PressButton
+  - Pressable
+  - Button
+  - projectile
+  - FxTemporaire
+  - Single
+  - Multiple
+  - LevelButton
+  - Cleaner
+  - EmissionMaterial
+  - LineA
+  - LineB
+  - LineC
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - noLight
+  - Environmrnt
+  - bag
+  - Monster
+  - 
+  - 
+  - 
+  - Screw
+  - Plate
+  - Ruler
+  - Indicator
+  - ScrewHole
+  - PlateXIndicator
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

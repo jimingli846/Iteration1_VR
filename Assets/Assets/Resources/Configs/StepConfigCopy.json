@@ -1,0 +1,487 @@
+{
+    "Operations": [
+        {
+            "Operation": "PPE Safety",
+            "Steps": [
+                {
+                    "Id": "1.1",
+                    "Step": "Put on Nitrile Gloves",
+                    "Image": "01_PPE_Safety/NitrileGloves",
+                    "Outline": "NitrileGloveLeft,NitrileGloveRight",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "1.2",
+                    "Step": "Put on the Respirator",
+                    "Image": "01_PPE_Safety/Respirator",
+                    "Outline": "Respirator",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "1.3",
+                    "Step": "Are you wearing closed toe shoes?"
+                }
+            ]
+        },
+        {
+            "Operation": "Safety",
+            "Steps": [
+                {
+                    "Id": "2.1",
+                    "Step": "Find Class D Fire Extinguisher",
+                    "Image": "02_Safety/ClassDFireExtinguisher",
+                    "Outline": "FireExt",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "2.2",
+                    "Step": "Find Wet Separator",
+                    "Image": "02_Safety/WetSeparator",
+                    "Outline": "WetSeparator",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "2.3",
+                    "Step": "Find Low Oxygen Alarms",
+                    "Image": "02_Safety/LowOxygenAlarms",
+                    "Outline": "LowOxygenAlarm",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "2.4",
+                    "Step": "Find Emergency Stop Circuit",
+                    "Image": "02_Safety/EmergencyStopCircuit",
+                    "Outline": "EmergencyStop",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "2.5",
+                    "Step": "Find Inert Gas Monitoring",
+                    "Image": "02_Safety/InertGasMonitoring",
+                    "Outline": "InertGasMonitor",
+                    "ShowNextButton": 0
+                }
+            ]
+        },
+        {
+            "Operation": "EOS Layout Overview Outside Machine",
+            "Steps": [
+                {
+                    "Id": "3.1",
+                    "Step": "Find Machine",
+                    "Outline": "MachineTrigger",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "3.2",
+                    "Step": "Find Fine Filter Stage",
+                    "Outline": "FineFilterStageTrigger",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "3.3",
+                    "Step": "Find Pre Filter Stage",
+                    "Outline": "PreFilterStageTrigger",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "3.4",
+                    "Step": "Find Process Chamber",
+                    "Outline": "ProcessChamberTrigger",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "3.5",
+                    "Step": "Find Emergency Stop Button",
+                    "Outline": "EmergencyButtonTrigger",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "3.6",
+                    "Step": "Find Service Key-operated Switch",
+                    "Outline": "ServiceSwitchButtonTrigger",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "3.7",
+                    "Step": "Find Inert Gas Selector Switch",
+                    "Outline": "InertSwitchButtonTrigger",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "3.8",
+                    "Step": "Find Service Network",
+                    "Outline": "ServiceNetworkButtonTrigger",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "3.9",
+                    "Step": "Find Touch Sensitive Monitor",
+                    "Outline": "MonitorModule2",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "3.10",
+                    "Step": "Click to Open the Outer Door",
+                    "Outline": "OutDoorModelA,OutDoorModelB,OutDoorPositionA,OutDoorPositionB",
+                    "ShowNextButton": 0
+                }
+            ]
+        },
+        {
+            "Operation": "EOS Layout Inside Machine",
+            "Steps": [
+                {
+                    "Id": "4.1",
+                    "Step": "Click on Chamber Door Handle to Open the Door for Process Chamber",
+                    "Outline": "ChamberSwitchA,ChamberSwitchB,ChamberSwitchC,ChamberSwitchD",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "4.2",
+                    "Step": "Open the Door for Process Chamber",
+                    "Outline": "DoorModel",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "4.3",
+                    "Step": "Find Recoater",
+                    "Outline": "RecoaterBody",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "4.4",
+                    "Step": "Find Building Platform",
+                    "Outline": "Building Platform",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "4.5",
+                    "Step": "Find Collector Duct",
+                    "AutoProceed": 1
+                },
+                {
+                    "Id": "4.6",
+                    "Step": "Find Dispenser Duct",
+                    "AutoProceed": 1
+                },
+                {
+                    "Id": "4.7",
+                    "Step": "Find Rocket Swithches",
+                    "Outline": "Up,Down,Left,Right",
+                    "ShowNextButton": 0
+                }
+            ]
+        },
+        {
+            "Operation": "Blade",
+            "Steps": [
+                {
+                    "Id": "5.1",
+                    "Step": "Find Recoater Housing",
+                    "Outline": "Recoater Housing",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "5.2",
+                    "Step": "Find High Speed Steel Blade",
+                    "Outline": "Blade1",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "5.3",
+                    "Step": "Find Brush Recoater Blade",
+                    "Outline": "Blade2",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "5.4",
+                    "Step": "Find Ceramic Recoater Blade",
+                    "Outline": "Blade3",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "5.5",
+                    "Step": "Pick Up One Recoater Blade",
+                    "Outline": "Blade1,Blade2,Blade3",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "5.6",
+                    "Step": "Place the Recoater Blade on Recoater Housing",
+                    "Outline": "Blade1,Blade2,Blade3",
+                    "Highlight": "Recoater Housing"
+                },
+                {
+                    "Id": "5.7",
+                    "Step": "Pick Up Blade Holder",
+                    "Outline": "Blade Holder",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "5.8",
+                    "Step": "Place the Blade Holder on Recoater Housing",
+                    "Outline": "Blade Holder",
+                    "Highlight": "Recoater Housing"
+                },
+                {
+                    "Id": "5.9",
+                    "Step": "Find Screws and pick up ONE",
+                    "Outline": "HolderScrewC,HolderScrewD,HolderScrewB,HolderScrewA,HolderScrewG,HolderScrewF,HolderScrewE",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "5.10",
+                    "Step": "Screw the Blade Holder",
+                    "Outline": "HolderScrewC,HolderScrewD,HolderScrewB,HolderScrewA,HolderScrewG,HolderScrewF,HolderScrewE",
+                    "Highlight": "ScrewCylinderA,ScrewCylinderB,ScrewCylinderC,ScrewCylinderD,ScrewCylinderE,ScrewCylinderF,ScrewCylinderG",
+                    "TargetCount": 7,
+                    "ShowNextButton": 0
+                }
+            ]
+        },
+        {
+            "Operation": "Leveling",
+            "Steps": [
+                {
+                    "Id": "6.1",
+                    "Step": "Pick up Build Plate",
+                    "Outline": "Build Plate",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "6.2",
+                    "Step": "Put the Build Plate in Building Planform",
+                    "Outline": "Build Plate",
+                    "Highlight": "Building Platform"
+                },
+                {
+                    "Id": "6.3",
+                    "Step": "Find Bolts and pick up ONE",
+                    "Outline": "PlateScrewC,PlateScrewD,PlateScrewB,PlateScrewA",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "6.4",
+                    "Step": "Tight the bolts on Build Plate",
+                    "Outline": "PlateScrewC,PlateScrewD,PlateScrewB,PlateScrewA",
+                    "Highlight": "BoltCylinderA,BoltCylinderB,BoltCylinderC,BoltCylinderD",
+                    "TargetCount": 4
+                },
+                {
+                    "Id": "6.5",
+                    "Step": "Lower Build Plate using the button on the screen",
+                    "Outline": "BuildPlateDown",
+                    "Highlight": "Build Plate"
+                },
+                {
+                    "Id": "6.6",
+                    "Step": "Move the Recoater Housing to the area above the Build Plate",
+                    "Outline": "RecoaterBody,RecoaterLeft",
+                    "Highlight": "Build Plate"
+                },
+                {
+                    "Id": "6.7",
+                    "Step": "Pick Up the Indicator",
+                    "Outline": "IndicatorOutline1",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "6.8",
+                    "Step": "Put the Indicator on the Recoater Housing",
+                    "Highlight": "IndicatorTrigger"
+                },
+                {
+                    "Id": "6.9",
+                    "Step": "Move the Indicator back and forth in Y-axis",
+                    "Outline": "IndicatorOutline2"
+                },
+                {
+                    "Id": "6.10",
+                    "Step": "Adjust Level Rocker Switchs until the Indicator's value is stable while moving",
+                    "Outline": "Level Rocker Switchs A,Level Rocker Switchs B"
+                },
+                {
+                    "Id": "6.11",
+                    "Step": "Move the Recoater left to right with Buttons on minitor",
+                    "Outline": "RecoaterLeft,RecoaterRight",
+                    "Highlight": "Recoater Housing"
+                },
+                {
+                    "Id": "6.12",
+                    "Step": "Adjust Level Rocker Switchs until the Indicator's value is stable while moving",
+                    "Outline": "Level Rocker Switchs A,Level Rocker Switchs B"
+                },
+                {
+                    "Id": "6.13",
+                    "Step": "Find A Ruler To Measure The Distance Between The Blade And The Plate",
+                    "Outline": "500MicronBody,550MicronBody,600MicronBody",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "6.14",
+                    "Step": "Use the 0.50mm Ruler to check the distance between Recoater and Build Plate",
+                    "Outline": "500MicronBody",
+                    "Highlight": "Recoater Housing",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "6.15",
+                    "Step": "Use the 0.60mm Ruler to check the distance between Recoater and Build Plate",
+                    "Outline": "600MicronBody",
+                    "Highlight": "Recoater Housing",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "6.16",
+                    "Step": "Use the 0.55mm Ruler to check the distance between Recoater and Build Plate",
+                    "Outline": "550MicronBody",
+                    "Highlight": "Recoater Housing"
+                },
+                {
+                    "Id": "6.17",
+                    "Step": "Enter the distance number on the monitor",
+                    "Outline": "KeyPanelBackground"
+                },
+                {
+                    "Id": "6.18",
+                    "Step": "Raise the plate up using the submit button",
+                    "Outline": "Confirm"
+                },
+                {
+                    "Id": "6.19",
+                    "Step": "Remove the indicator and place it back on the table"
+                }
+            ]
+        },
+        {
+            "Operation": "Check all Setup Conditions",
+            "Steps": [
+                {
+                    "Id": "7.1",
+                    "Step": "Lower Powder Dispenser and Collector Bin",
+                    "Outline": "DispenserDown,DispenserUp,CollectorUp,CollectorDown",
+                    "Hightlight": "DispenserModel,CollectorBinModel"
+                },
+                {
+                    "Id": "7.2",
+                    "Step": "Fill Dispenser with Powder",
+                    "Outline": "PowderHolderPivot",
+                    "Hightlight": "DispenserModel"
+                },
+                {
+                    "Id": "7.3",
+                    "Step": "Tamp down the powder to make sure it is compacted",
+                    "Outline": "Tamper",
+                    "Hightlight": "FakePowder"
+                },
+                {
+                    "Id": "7.4",
+                    "Step": "Close The Door",
+                    "Outline": "DoorModel",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "7.5",
+                    "Step": "Spread single layer of powder from left to right",
+                    "Outline": "RecoaterLeft,RecoaterRight"
+                },
+                {
+                    "Id": "7.6",
+                    "Step": "Open The Door",
+                    "Outline": "DoorModel",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "7.7",
+                    "Step": "Take off the lens mask",
+                    "Outline": "Mask",
+                    "Hightlight": "Mask1stTrigger"
+                },
+                {
+                    "Id": "7.8",
+                    "Step": "Clean the F-Theta lens",
+                    "Outline": "Cleaner",
+                    "Hightlight": "lense"
+                },
+                {
+                    "Id": "7.9",
+                    "Step": "Put Lens Mask Back",
+                    "Outline": "Mask",
+                    "Hightlight": "lense",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "7.10",
+                    "Step": "Install the Gas Extractor Nozzle",
+                    "Outline": "Filter",
+                    "Highlight": "FilterTrigger",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "7.11",
+                    "Step": "Close the door",
+                    "Outline": "DoorCollider",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "7.12",
+                    "Step": "Establish process conditions",
+                    "Outline": "EstablishProcessConditions",
+                    "ShowNextButton": 0
+                }
+            ]
+        },
+        {
+            "Operation": "Start Build",
+            "Steps": [
+                {
+                    "Id": "8.1",
+                    "Step": "Press the button to start the build",
+                    "Outline": "StartBuild"
+                }
+            ]
+        },
+        {
+            "Operation": "Laser Sintering Process in Chamber",
+            "Steps": [
+                {
+                    "Id": "9.1",
+                    "Step": "Watch the process inside the chamber",
+                    "ShowNextButton": 0
+                }
+            ]
+        },
+        {
+            "Operation": "Monitor Build",
+            "Steps": [
+                {
+                    "Id": "10.1",
+                    "Step": "Watch the layers to see if they are covered",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "10.2",
+                    "Step": "Check the Argon Level on the screen",
+                    "ShowNextButton": 0
+                }
+            ]
+        },
+        {
+            "Operation": "Take Out The Build",
+            "Steps": [
+                {
+                    "Id": "11.1",
+                    "Step": "Build Complete. Open the door!",
+                    "Outline": "DoorModel",
+                    "ShowNextButton": 0
+                },
+                {
+                    "Id": "11.2",
+                    "Step": "Take out the build",
+                    "Outline": "BuildMesh"
+                }
+            ]
+        }
+    ]
+}
